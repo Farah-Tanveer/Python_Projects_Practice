@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "/5ho6RJtSw+PVgmsV/TcmA==kSicTOa6lsHKYZFU"  
+API_KEY = "Your_API_Key"  
 API_URL = "https://api.api-ninjas.com/v1/dictionary?word="
 
 def get_meaning(word):
@@ -35,5 +35,6 @@ while True:
 
     meaning = get_meaning(word)
     print(f"\nMeaning of '{word}':\n{meaning}")
+
 
 
