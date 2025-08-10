@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "/5ho6RJtSw+PVgmsV/TcmA==kSicTOa6lsHKYZFU"  
+API_KEY = "Your_API_Key"  
 API_URL = "https://api.api-ninjas.com/v1/quotes"
 
 favorites = []
@@ -53,5 +53,6 @@ if favorites:
     print("\nYour Favorite Quotes Before Exit:")
     for i, (q, a) in enumerate(favorites, 1):
         print(f"{i}. \"{q}\" — {a}")
+
 
 
